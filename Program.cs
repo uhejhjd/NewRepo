@@ -227,16 +227,16 @@ Console.WriteLine(minecraft.Id);
 
 #region 微软验证
 
-MicrosoftAuthenticator authenticator = new("291eedbc-7ca4-4af2-9231-9c9ff1009c10");
-var oAuth2Token = await authenticator.DeviceFlowAuthAsync(x => {
-    Console.WriteLine(x.UserCode);
-    Console.WriteLine(x.VerificationUrl);
-});
+//MicrosoftAuthenticator authenticator = new("291eedbc-7ca4-4af2-9231-9c9ff1009c10");
+//var oAuth2Token = await authenticator.DeviceFlowAuthAsync(x => {
+//    Console.WriteLine(x.UserCode);
+//    Console.WriteLine(x.VerificationUrl);
+//});
 
 
-var account = await authenticator.AuthenticateAsync(oAuth2Token);
-Console.WriteLine(account.Name);
-Console.WriteLine();
+//var account = await authenticator.AuthenticateAsync(oAuth2Token);
+//Console.WriteLine(account.Name);
+//Console.WriteLine();
 
 
 
@@ -309,13 +309,13 @@ await foreach (var java in asyncJavas)
 #endregion
 
 #region 启动
-var newAccount = await authenticator.RefreshAsync(account);
-Console.WriteLine(newAccount.Name);//刷新访问令牌
+//var newAccount = await authenticator.RefreshAsync(account);
+//Console.WriteLine(newAccount.Name);//刷新访问令牌
 minecraft = minecraftParser.GetMinecraft("1.20.1");
 
 
 MinecraftRunner runner = new(new LaunchConfig {
-    Account = newAccount,
+    Account = new OfflineAuthenticator().Authenticate("Yang114"),
     MaxMemorySize = 2048,
     MinMemorySize = 512,
     LauncherName = "MinecraftLaunch",
