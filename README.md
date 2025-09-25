@@ -16,8 +16,8 @@
 | 微软账户验证器                                                    | 🟥                   |
 | 原版核心安装器                                                    | 🟩                    |
 | Java 安装器                                                       | 🟥                   |
-| Curseforge 格式整合包安装器                                        | 🟩                   |
-| Modrinth 格式整合包安装器                                          | 🟩                   |
+| Curseforge 格式整合包安装器                                        | 🟥                    |
+| Modrinth 格式整合包安装器                                          | 🟥                   |
 | Forge（Neo） 安装器                                               | 🟥                 |
 | Optifine 安装器                                                   | 🟥                 |
 | Fabric 安装器                                                     | 🟥                 |
