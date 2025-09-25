@@ -1,13 +1,11 @@
-﻿# 关于
-此项目基于.NET 8编写，使用WPF作为UI框架(但是还没有实现[doge)，目标是创建一个简单易用的Minecraft启动器。	
-
-# MinecraftLaunch
-![Github stars](https://img.shields.io/github/stars/uhejhjd/NewRepo.svg)
-这是一个我的世界玩家自制的启动器。
-欢迎使用！！！
-### ~~高性能mc启动器~~
-![Star](https://img.shields.io/github/stars/uhejhjd/NewRepo?logo=github&label=Star&style=for-the-badge)
+﻿![Star](https://img.shields.io/github/stars/uhejhjd/NewRepo?logo=github&label=Star&style=for-the-badge)
 ![License](https://img.shields.io/github/license/Blessing-Studio/MinecraftLaunch?logo=github&label=开源协议&style=for-the-badge&color=ff7a35)
+# 关于
+此项目基于.NET 8编写，使用WPF作为UI框架(但是还没有实现[doge)，目标是创建一个简单易用的Minecraft启动器。	
+# MinecraftLaunch
+这是一个我的世界玩家自制的启动器。
+欢迎使用！！！  
+### ~~高性能~~mc启动器
 # · 启动器使用方法
 1.下载并运行本程序.  
 2.自动下载安装并启动1.20.1版本的Minecraft。
@@ -32,6 +30,7 @@
 | 管理 launchprofile.json 的数据                                     | 🟥                  |
 | 查找已安装的 Java 运行时                                           | 🟩                   |
 | 支持第三方下载镜像源 [BMCLAPI](https://bmclapidoc.bangbang93.com/) | 🟩                   |
+| GUI 界面                                                           | 🟥                   |
 ### 与我们联系
 
 需要帮助？
