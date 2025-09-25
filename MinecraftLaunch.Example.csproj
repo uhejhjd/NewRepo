@@ -7,6 +7,9 @@
         <PublishAot>true</PublishAot>
 		<LangVersion>latest</LangVersion>
     </PropertyGroup>
+    <ItemGroup>
+      <Compile Include="还没创建doge.md" />
+    </ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="System.Linq.Async" Version="6.0.1" />

@@ -18,14 +18,14 @@
 | Java 安装器                                                       | 🟥                   |
 | Curseforge 格式整合包安装器                                        | 🟩                   |
 | Modrinth 格式整合包安装器                                          | 🟩                   |
-| Forge（Neo） 安装器                                               | 🟩                   |
-| Optifine 安装器                                                   | 🟩                  |
-| Fabric 安装器                                                     | 🟩                  |
-| Quilt 安装器                                                      | 🟩                  | 
-| 游戏日志分析                                                       | 🟩                  |
-| 游戏崩溃分析                                                       | 🟩                  |
+| Forge（Neo） 安装器                                               | 🟥                 |
+| Optifine 安装器                                                   | 🟥                 |
+| Fabric 安装器                                                     | 🟥                 |
+| Quilt 安装器                                                      | 🟥                  | 
+| 游戏日志分析                                                       | 🟥                  |
+| 游戏崩溃分析                                                       | 🟥                  |
 | 查找 .minecraft 中的游戏核心                                       | 🟩                   |
-| 创建、启动、管理 Minecraft 进程                                    | 🟥                  |
+| 创建、启动、管理 Minecraft 进程                                    | 🟩                  |
 | 管理 launchprofile.json 的数据                                     | 🟥                  |
 | 查找已安装的 Java 运行时                                           | 🟩                   |
 | 支持第三方下载镜像源 [BMCLAPI](https://bmclapidoc.bangbang93.com/) | 🟩                   |
