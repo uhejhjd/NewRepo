@@ -5,6 +5,9 @@
 ![Github stars](https://img.shields.io/github/stars/uhejhjd/NewRepo.svg)
 这是一个我的世界玩家自制的启动器。
 欢迎使用！！！
+### ~~高性能mc启动器~~
+![Star](https://img.shields.io/github/stars/uhejhjd/NewRepo?logo=github&label=Star&style=for-the-badge)
+![License](https://img.shields.io/github/license/Blessing-Studio/MinecraftLaunch?logo=github&label=开源协议&style=for-the-badge&color=ff7a35)
 # · 启动器使用方法
 1.下载并运行本程序.  
 2.自动下载安装并启动1.20.1版本的Minecraft。
